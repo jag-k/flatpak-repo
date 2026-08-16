@@ -1,0 +1,5 @@
+repo/** -diff
+*.flatpakref text eol=lf
+*.flatpakrepo text eol=lf
+*.html text eol=lf
+*.md text eol=lf
