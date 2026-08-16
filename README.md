@@ -2,12 +2,14 @@
 
 This repository hosts the signed Flatpak remote for applications published by
 jag-k. It is deployment storage rather than an application source repository.
+GitHub Pages serves it from `https://flatpak.jag-k.dev/`; the DNS `flatpak`
+CNAME points to `jag-k.github.io`.
 
 ## Add the remote
 
 ```sh
 flatpak remote-add --user --if-not-exists jag-k \
-  https://jag-k.github.io/flatpak-repo/jag-k.flatpakrepo
+  https://flatpak.jag-k.dev/jag-k.flatpakrepo
 ```
 
 List available applications:
@@ -27,7 +29,7 @@ one step:
 
 ```sh
 flatpak install --user \
-  https://jag-k.github.io/flatpak-repo/clipboard-transformer.flatpakref
+  https://flatpak.jag-k.dev/clipboard-transformer.flatpakref
 ```
 
 ## Repository layout
