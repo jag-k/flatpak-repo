@@ -1,7 +1,10 @@
 [Flatpak Ref]
-Name=dev.jag_k.clipboard_transformer
+Name=dev.jagk.clipboard_transformer
 Branch=stable
 Title=Clipboard Transformer
+Comment=Transform clipboard content with configurable rules
+Homepage=https://github.com/jag-k/clipboard-transformer
+Icon=https://flatpak.jag-k.dev/icons/dev.jagk.clipboard_transformer.png
 Url=https://flatpak.jag-k.dev/repo/
 RuntimeRepo=https://flathub.org/repo/flathub.flatpakrepo
 IsRuntime=false
